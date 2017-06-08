@@ -29,5 +29,5 @@ steps to execute the code on VisualStudio are as follows:
 
 
 OUTPUT:
-example.txt(located in visual studio project folder ): Gives the vehicle count (2-wheeler and 4-wheeler) along with date and time.
-signal.txt(Desktop) :Gives the status of traffic signal lights.
+example.txt(located in visual studio vehicle count project folder ): Gives the vehicle count (2-wheeler and 4-wheeler) along with date and time.
+signal.txt(located in visual studio decision tree project folder) :Gives the status of traffic signal lights.
