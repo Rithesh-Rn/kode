@@ -1,0 +1,33 @@
+The above code is implemented in visual studio 2015. Along with OpenCV 3.1.0
+(*before you start, install openCV and add the path of the same to your system)
+steps to execute the code on VisualStudio are as follows:
+
+// to run the vehicle detection code
+
+1. Open VisualStudio and create a new project under Visual C++.Click OK.
+2. Add 'source.cpp' and 'BLOB.cpp' to the prject.Download the respective video and store it in VisualStudioProject under the folder title your ptoject name.
+3. Set solution Configuration to Debug.
+4. Set solution platform to x64.
+5. Click on Project -> properties -> configuration properties -> VC++ Directories -> include directories -> edit 
+6. Now add the path of opencv-build-include (Eg  C:\Users\user\Documents\opencv\build\include).Click OK.
+7. Click on Project -> properties -> configuration properties -> VC++ Directories -> library directories -> edit 
+8. Now add the path of library directory-openCV (Eg C:\Users\user\Documents\opencv\build\x64\vc14\lib)
+9. 7. Click on Project -> properties -> configuration properties -> linker -> Input -> Additional dependencies -> edit
+10. Now add the library file(debug). (Ex opencv_world310.lib).Click OK
+11. Run the program.
+
+// to run the decision tree code
+
+1. Open VisualStudio(another new window) and create a new project under Visual C++.Click OK.
+2. Add 'decisiontree.cpp' to that project.
+3. Run the program.
+
+
+
+//***NOTE Run both the simultaneously.
+
+
+
+OUTPUT:
+example.txt(located in visual studio project folder ): Gives the vehicle count (2-wheeler and 4-wheeler) along with date and time.
+signal.txt(Desktop) :Gives the status of traffic signal lights.
