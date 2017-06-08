@@ -19,7 +19,7 @@ steps to execute the code on VisualStudio are as follows:
 // to run the decision tree code
 
 1. Open VisualStudio(another new window) and create a new project under Visual C++.Click OK.
-2. Add 'decisiontree.cpp' to that project.
+2. Add 'Decision_tree.cpp' to that project.
 3. Run the program.
 
 
