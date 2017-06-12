@@ -4,8 +4,8 @@ steps to execute the code on VisualStudio are as follows:
 
 // to run the vehicle detection code
 
-1. Open VisualStudio and create a new project under Visual C++.Click OK.
-2. Add 'source.cpp' and 'BLOB.cpp' to the prject.Download the respective video and store it in VisualStudioProject under the folder title your ptoject name.
+1. Open VisualStudio and create a new project XYZ under Visual C++.Click OK.
+2. Add 'source.cpp' and 'BLOB.cpp' to the prject.Download the respective video and store it in VisualStudioProject under the folder XYZ.
 3. Set solution Configuration to Debug.
 4. Set solution platform to x64.
 5. Click on Project -> properties -> configuration properties -> VC++ Directories -> include directories -> edit 
@@ -24,7 +24,7 @@ steps to execute the code on VisualStudio are as follows:
 
 
 
-//***NOTE Run both the simultaneously.
+//***NOTE Run both the programs simultaneously.
 
 
 
